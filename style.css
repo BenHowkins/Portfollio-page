@@ -1,4 +1,4 @@
-/* General styling */
+/* General Styling */
 
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
@@ -26,7 +26,7 @@ a,
     transition: all 250ms ease;
 }
 
-/* Descktop Nav */
+/* Desktop Nav */
 nav,
 .nav-links {
     display: flex;
@@ -47,7 +47,7 @@ nav {
 a {
     color: black;
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: whitesmoke;
 }
 
 a:hover {
@@ -208,14 +208,14 @@ section {
     gap: 1rem;
   }
   
-  /* ICONS */
+  /* Icons */
   
   .icon {
     cursor: pointer;
     height: 2rem;
   }
   
-  /* BUTTONS */
+  /* Buttons */
   
   .btn-container {
     display: flex;
@@ -244,7 +244,7 @@ section {
   .btn-color-1,
   .btn-color-2:hover {
     background: rgb(53, 53, 53);
-    color: white;
+    color: whitesmoke;
   }
   
   .btn-color-1:hover {
@@ -262,3 +262,56 @@ section {
   .btn-container {
     gap: 1rem;
   }
+
+  /* About Section */
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: whitesmoke;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
